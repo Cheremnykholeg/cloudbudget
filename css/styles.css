@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #fa5858;
+    height: 100vh;
+}
+
+nav p {
+    color: #fff;
+    line-height: 0.82;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.hero h1 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 7.2rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    background-color: #fff;
+    color: #fa5858;
+    border-radius: 6px;
+    line-height: 1.21;
+    font-size: 1.7rem;
+    width: 160px;
+    height: 60px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+.hero h2 {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 36px;
+}
+
+.hero img {
+    border-radius: 15px;
+    background: url(.jpg), #C4C4C4;
+    width: 540px;
+    height: 311px;
+} */
