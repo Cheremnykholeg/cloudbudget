@@ -7,25 +7,72 @@ html {
 }
 
 body {
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../img/Rectangle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: "Lato", sans-serif;
-    background-color: #fa5858;
-    height: 100vh;
+    height: 94.3vh;
+}
+
+
+nav p img {
+    padding-right: 5px;
 }
 
 nav p {
+    margin-top: 40px;
+    margin-left: 55px;
     color: #fff;
     line-height: 0.82;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: -10px;
 }
 
-a {
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav li:first-child {
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+}
+
+li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 0.82;
 }
 
 li {
     display: inline-block;
+}
+
+.button1 button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    line-height: 1.21;
+    font-size: 1.7rem;
+    width: 100px;
+    height: 40px;
+}
+
+.button1 {
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 40px;
+}
+
+.hero {
+    margin-top: 10%;
 }
 
 .hero h1 {
@@ -52,6 +99,7 @@ li {
 .hero button {
     background-color: #fff;
     color: #fa5858;
+    border: none;
     border-radius: 6px;
     line-height: 1.21;
     font-size: 1.7rem;
