@@ -112,16 +112,30 @@ li {
     justify-content: center;
 }
 
-/* 
-.hero h2 {
+
+.hero1 h2 {
     font-weight: 600;
     line-height: 1.2;
-    font-size: 36px;
+    font-size: 3.6rem;
+    margin-top: 250px;
+    width: 445px;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 
-.hero img {
+.text {
+    font-size: 1.6rem;
+    line-height: 1.37;
+    width: 445px;
+    margin-left: 50px;
+}
+
+.hero1 img {
     border-radius: 15px;
-    background: url(.jpg), #C4C4C4;
     width: 540px;
-    height: 311px;
-} */
+    height: 311px;  
+}
+
+.img {
+    text-align: right;
+}
